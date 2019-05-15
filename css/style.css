@@ -107,6 +107,31 @@ header .navbar{
 .services-text{
     padding-top: 50px;
 }
+.page{
+    padding-bottom: 70px;
+}
+.contact {
+    margin-bottom: 0;
+}
+.page img{
+    box-shadow: 1px 1px 10px 1px #ccc;
+}
+.map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-top: -25%;
+}
+.map iframe{
+   
+    left:0;
+    /*top:0;*/
+    bottom: 0;
+    height:50%;
+    width:100%;
+    position:absolute;
+}
 
 /*================== Footer ====================*/
 
